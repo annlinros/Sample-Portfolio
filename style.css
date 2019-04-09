@@ -1,9 +1,9 @@
 body{
     font-family: 'Lora', serif;
     font-size: 62.5%;
-    background: #ffffff;
-    color: #D46D6A;
+    color: #ffffff;
     height: 100vh;
+    margin: none;
 }
 .nav-text{
     color:#801815;
@@ -13,11 +13,12 @@ body{
     color: rgba(128, 24, 21, .8);
 }
 .home{
-    padding-left: 10rem;
+    padding-left: 9rem;
 }
 h1{
     font-family: 'Playfair Display', serif;
     font-size: 7rem;
+    color: #D46A6A;
 }
 .caption{
     font-family: 'Lora', serif;
@@ -37,22 +38,38 @@ h1{
 /* skills */
 
 .skills-sub >*{
-    padding-bottom:2rem ;
+    padding-bottom:1rem ;
 }
 
 /* projects */
 .projects > * {
-  padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .card{
     width:20rem;
     padding: .5rem;
 }
+.card-img-top {
+    width: 100%;
+    height: 18vh;
+    object-fit: cover;
+}
 .card-link{
     font-size: .9rem;
 }
-
-
+#projects{
+    margin-bottom: 25rem;
+}
+/* SKEWED */
+.skewed{
+    height: 45vh;
+    width: 100vw;
+    background: linear-gradient(-189deg, #FFAAAA 55%, #fff 30%); 
+}
+.skewed h4{
+    padding-left: 5rem;
+    font-size: 4rem;
+}
 /* MQ */
 
 @media (max-width:41.4em){
