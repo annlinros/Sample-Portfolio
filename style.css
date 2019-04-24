@@ -25,7 +25,8 @@ h1{
     font-size: 2rem;
 }
 .lead{
-    padding: 5rem;
+    padding-inline-start: 4rem;
+    padding-inline-end: 4rem;
 }
 /* skills */
 .skills > * {
@@ -91,7 +92,7 @@ h1{
 h3{
     font-size: 3rem;
     color: #D46A6A; 
-    padding-bottom: 2rem; 
+    padding: 3rem; 
 }
 .timeline-main {  
     list-style: none;
